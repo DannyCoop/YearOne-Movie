@@ -6,8 +6,6 @@ function MovieCard(){
         <div className="MovieCard">
             <img src=""/>
             <h3>Title</h3>
-            <h5>Director</h5>
-            <p>Deiscription</p>
         </div>
     )
 }
