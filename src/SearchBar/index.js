@@ -20,11 +20,11 @@ function SearchBar() {
     }
 
     return(
-        <div>
+        <div className="SearchBar">
             {movieFetch()}
             hey
             <form>
-                <input>
+                <input placeholder="Search for movie">
                 </input>
             </form>
         </div>
