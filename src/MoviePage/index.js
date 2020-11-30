@@ -1,11 +1,11 @@
 import React from 'react'
 
-function MoviePage() {
+function MoviePage(props) {
     return(
         <div>
             <div>
-                <img src=""/>
-                <h3>Title</h3>
+                <img src={`https://image.tmdb.org/t/p/original${props.movie.poster_path}`}/>
+                <h3>{props.movie.title}</h3>
                 <p>Director</p>
             </div>
             <p>Desricption</p>
