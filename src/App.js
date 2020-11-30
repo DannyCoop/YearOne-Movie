@@ -1,13 +1,16 @@
 import React from 'react'
 import './App.css';
-import MovieCard from './MovieCard';
-import SearchBar from './SearchBar';
+import {BrowserRouter } from 'react-router-dom';
+import Routes from './Routes';
+import SearchPage from './SearchPage';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-          <MovieCard/>
+        <BrowserRouter>
+          <Routes/>
+        </BrowserRouter>
       </header>
     </div>
   );
