@@ -4,8 +4,8 @@ import './MovieCard.css'
 function MovieCard(props){
     return(
         <div className="MovieCard">
-            <img src={`https://image.tmdb.org/t/p/original${props.poster}`}/>
-            <h3>{props.title}</h3>
+            <img src={`https://image.tmdb.org/t/p/original${props.movie.poster_path}`}/>
+            <h3>{props.movie.title}</h3>
             {console.log(props)}
         </div>
     )

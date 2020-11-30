@@ -14,8 +14,9 @@ function SearchPage() {
 
     const ShowMovie = () => {
         return movieList.map(movie => <MovieCard
-            title = {movie.title}
-            poster = {movie.poster_path}
+            movie = {movie}
+            // title = {movie.title}
+            // poster = {movie.poster_path}
             
         />)
     }
@@ -58,7 +59,7 @@ function SearchPage() {
 
     return(
         <div className="MainContainer">
-            Danny's Shit movie thing!
+            Danny's movie thing!
            <form onSubmit={(e) => handleSubmit(e)}>
                <input onChange={(e) => handleChange(e)} name="search" type="text" placeholder="Search"/>
                <button type="submit">Search</button>
