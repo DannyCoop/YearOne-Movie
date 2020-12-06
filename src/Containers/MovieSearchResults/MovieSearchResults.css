@@ -1,0 +1,23 @@
+.movies-being-shown{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;
+    width: 1300px;
+}
+
+input{
+    height: 20px;
+    width: 100px;
+}
+.nextPage{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    border-radius: 5px;
+    height: 25px;
+    align-self: center;
+    margin-top:4px;
+}
